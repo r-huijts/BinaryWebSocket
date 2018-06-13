@@ -26,6 +26,7 @@ public class BinaryWebsocketServer {
         sessions.remove(session);
     }
 
+    
     @OnError
     public void onError(Throwable t){
         Logger.getLogger(BinaryWebsocketServer.class.getName()).log(Level.SEVERE, null, t);
