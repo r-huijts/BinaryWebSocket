@@ -28,7 +28,7 @@ public class BinaryWebsocketServer {
 
     @OnError
     public void onError(Throwable t){
-        t.printStackTrace();
+        Logger.getLogger(BinaryWebsocketServer.class.getName()).log(Level.SEVERE, null, t);
     }
 
     @OnMessage

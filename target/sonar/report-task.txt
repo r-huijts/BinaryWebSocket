@@ -1,0 +1,6 @@
+projectKey=nl.fontys:BinaryWebSocket
+serverUrl=http://localhost:9000
+serverVersion=7.1.0.11001
+dashboardUrl=http://localhost:9000/dashboard/index/nl.fontys:BinaryWebSocket
+ceTaskId=AWP5MhA_KAbTkr6eH7Io
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWP5MhA_KAbTkr6eH7Io
